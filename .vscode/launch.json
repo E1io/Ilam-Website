@@ -7,7 +7,7 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Open index.html",
+            "name": "index.html",
             "file": "c:\\Users\\jorgensene23992\\OneDrive - Cardinal Gibbons High School\\Desktop\\Ilam Website\\index.html"
         }
     ]
