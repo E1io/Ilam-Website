@@ -238,26 +238,25 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   </div>
 
   <!-- Contact Section -->
-  <h3>Contact us</h3>
-  <form id="fcf-form-id" class="fcf-form-class" method="post" action="action_page.php">
-          <label for="Name" class="fcf-label">Your name</label>
-          <div class="fcf-input-group">
-              <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-          </div>
-      <div class="fcf-form-group">
-          <label for="Email" class="fcf-label">Your email address</label>
-          <div class="fcf-input-group">
-              <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-          </div>
-      <div class="fcf-form-group">
-          <label for="Message" class="fcf-label">Your message</label>
-          <div class="fcf-input-group">
-              <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-          </div>
-      </div>
-      <div class="fcf-form-group">
-          <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
-      </div>
+  <form action=”mailto:contact@yourdomain.com”
+
+
+method=”POST”
+enctype=”multipart/form-data”
+name=”EmailForm”>
+Name:
+<br>
+<input type=”text” size=”19″ name=”ContactName”>
+<br>
+<br>
+Message:
+<br> 
+<textarea name=”ContactCommentt” rows=”6″ cols=”20″>
+</textarea>
+<br>
+<br> 
+<input type=”submit” value=”Submit”> 
+</form>
   <!-- End Contact Section -->
   </div>
   
